@@ -4,13 +4,13 @@
 --header-height: 3.5rem; 
 
 /* Cores */
---first-hue: 250;
---sat: 66%;
---lig: 75%;
+--first-hue: 23;
+--sat: 17%;
+--lig: 54%;
 --second-hue: 219;
 
 --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
---first-color-alt: hsl(var(--first-hue), var(--sat), var(--lig), 71%);/*-4%*/
+--first-color-alt: hsl(var(--first-hue), var(--sat), var(--lig), 50%);/*-4%*/
 --title-color: hsl(var(--second-hue), 15%, 95%);
 --text-color: hsl(var(--second-hue), 8%, 75%);
 --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -27,7 +27,7 @@
 --normal-font-size: .938rem;
 --small-font-size: .813rem;
 --smaller-font-size: .75rem;
---tyni-font-size: .625rem;
+--tyni-font-size: .675rem;
 
 --font-medium: 500;
 --font-semi-bold: 600;
@@ -203,6 +203,10 @@ body.light-theme{
     color: var(--first-color);
     font-weight: var(--font-medium);
     transition: .4s;
+}
+.nav_logo{
+    width: 100px;
+    height: 100px;
 }
 .nav__logo:hover{
     color: var(--first-color-alt);
