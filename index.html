@@ -12,8 +12,8 @@
 <body>
    <header class="header" id="header">
     <nav class="nav container">
-        <!-- <a href="#" class="nav__logo">Bruna Veras</a> -->
-        <img src="img/logo.png" alt="logo" class="nav_logo">
+        <a href="#" class="nav__logo">DonaBruna✨</a>
+        <!-- <img src="img/logo.png" alt="logo" class="nav_logo"> -->
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
 
@@ -64,7 +64,7 @@
             <div class="home__data">
                 <span class="home__greeting">Olá, eu sou</span>
                 <h1 class="home__name">Bruna Veras</h1>
-                <h3 class="home__education">e trago a solução para o seu negócio.</h3>
+                <h3 class="home__education">e transformo seus requisitos em site - dentro do prazo e do orçamento.</h3>
 
                 <div class="home__buttons">
                     <a download="" href="#" class="button button--ghost">Baixar CV
@@ -102,14 +102,14 @@
         <h2 class="section__title">Sobre mim</h2>
 
         <div class="about__container container grid">
-            <img src="img/hero.png" alt="Bruna Veras" class="about__img">
+            <img src="img/bruna.png" alt="Bruna Veras" class="about__img">
 
             <div class="about__data">
                 <div class="about__info">
                     <div class="about__box">
                         <i class='bx bx-award about__icon'></i>
-                        <h3 class="about__title">Experiência</h3>
-                        <span class="about__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                        <h3 class="about__title">Especialidades</h3>
+                        <span class="about__subtitle">Código limpo, elegante e eficiente.</span>
                     </div>
 
                     <div class="about__box">
@@ -121,7 +121,8 @@
                 </div>
 
                 <p class="about__description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis laudantium blanditiis earum quae velit totam cupiditate sequi! Rerum soluta suscipit, molestias atque possimus perferendis nemo maiores eveniet mollitia quo nesciunt?
+                    Desenvolvedora Frontend (e um cadinho Backend), situada do Rio de Janeiro, perpetuamente trabalhando para melhorar minhas habilidades. Valorizo uma estrutura de conteúdo simples, design limpo e interações ponderadas.<br/><br/>
+                    <strong>Fatos aleatórios:</strong><br/> musculação é meu lazer<br/> um pouco louca por limpeza<br/> mãe apaixonada(e chata)
                 </p>
 
                 <a href="#contact" class="button">Contato</a>
@@ -146,7 +147,7 @@
 
                             <div>
                             <h3 class="skills__name">HTML</h3>
-                            <span class="skills__level">Intermediário</span>
+                            <span class="skills__level">Avançado</span>
                             </div>
                         </div>
 
@@ -204,9 +205,9 @@
                                 <i class='bx bxs-badge-check'></i>
 
                                 <div>
-                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <h3 class="skills__name">Beber café</h3>
                                         <span class="skills__level">
-                                            Básico
+                                            Avançadíssimo
                                         </span>
                                 </div>
                             </div>
@@ -232,21 +233,21 @@
         <div class="work__container container grid">
 
             <div class="work__card mix web">
-                <img src="/img/vscode2.png" alt="" class="work__img">
+                <img src="./img/vscode2.png" alt="" class="work__img">
 
                 <h3 class="work__title">Web</h3>
 
-                <a href="#" class="work__button">
+                <a href="web.html" class="work__button">
                     Ver todos<i class='bx bx-right-arrow-alt'></i>
                 </a>
             </div>
 
             <div class="work__card mix design">
-                <img src="/img/figma.png" alt="" class="work__img">
+                <img src="./img/figma.png" alt="" class="work__img">
 
                 <h3 class="work__title">UI/UX Design</h3>
 
-                <a href="#" class="work__button">
+                <a href="design.html" class="work__button">
                     Ver todos<i class='bx bx-right-arrow-alt'></i>
                 </a>
             </div>
@@ -298,16 +299,16 @@
             <div class="contact__content">
                 <h3 class="contact__title">Escreva-me sobre seu projeto</h3>
 
-                <form method="POST" action="mailto:verasbruna53@gmail.com" enctype="text/plain" class="contact__form">
+                <form action="" method="POST" enctype="text/plain" class="contact__form" id="contact-form">
                     <div class="contact__form-div">
                         <label for="" class="contact__form-tag">Nome</label>
-                        <input name="nome" type="text" class="contact__form-input" required>
+                        <input name="nome" type="text" class="contact__form-input" id="contact-user" required>
 
                     </div>
 
                     <div class="contact__form-div">
                         <label for="" class="contact__form-tag">E-mail</label>
-                        <input name="email" type="email" class="contact__form-input" required>
+                        <input name="email" type="email" class="contact__form-input" id="email_id" required>
                     </div>
 
                     <div class="contact__form-div">
@@ -317,7 +318,7 @@
 
                     <div class="contact__form-div contact__form-area">
                         <label for="" class="contact__form-tag">Mensagem</label>
-                        <textarea name="mensagem" id="" cols="30" rows="5" class="contact__form-input" required></textarea>
+                        <textarea name="mensagem" id="contact-message" cols="30" rows="5" class="contact__form-input" required></textarea>
                     </div>
                     
                     <button type="submit" class="button">Enviar</button>
@@ -333,6 +334,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <h1 class="footer__title">Dona Bruna - Soluções Web</h1>
+            <span class="cnpj">CNPJ 47.472.581/0001-28</span>
 
             <ul class="footer__list">
                 <li>
@@ -368,6 +370,12 @@
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="./js/mixitup.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<!-- <script type="text/javascript">
+    (function(){
+        emailjs.init("");
+    })();
+</script> -->
 <script src="./js/script.js"></script>    
 </body>
 </html>

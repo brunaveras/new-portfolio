@@ -135,7 +135,8 @@ body.light-theme{
 .light-theme .active-work,
 .light-theme .footer__title,
 .light-theme .footer__link,
-.light-theme .footer__copy{
+.light-theme .footer__copy,
+.light-theme .cnpj{
     color: var(--title-color);
 }
 .light-theme .about__box{
@@ -611,6 +612,13 @@ body.light-theme{
     font-size: 1rem;
     display: inline-flex;
 }
+.cnpj{
+    display: block;
+    margin-top: .4rem;
+    color: var(--container-color);
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
 .footer__copy{
     display: block;
     margin-top: 4.5rem;
@@ -782,3 +790,98 @@ body.light-theme{
         border-radius: .5rem;
     }
 }
+/* page not found
+.container404{
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.home{
+    background-color: var(--first-color);
+    padding: 9rem 0 2rem;
+    height: 100vh;
+    display: grid;
+}
+.home__container{
+    display: grid;
+    align-content: center;
+    row-gap: 2.5rem;
+}
+.home__data{
+    text-align: center;
+}
+.home__subtitle{
+    display: block;
+}
+.home__title{
+    font-size: var(--biggest-font-size);
+    margin: .75rem 0;
+}
+.home__button{
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: var(--text-color);
+    color: #fff;
+    padding: .80rem 1.5rem;
+    border-radius: 3rem;
+    transition: .4s;
+}
+.home__button:hover{
+    box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
+}
+.home__img img{
+    width: 230px;
+    animation: floaty 1.8s infinite alternate;
+}
+.home__img{
+    justify-self: center;
+    max-width: 100%;
+    height: auto;
+}
+.home__shadow{
+    width: 130px;
+    height: 24px;
+    background-color: hsla(38, 21%, 19%, .16);
+    margin: 0 auto;
+    border-radius: 50%;
+    filter: blur(7px);
+    animation: shadow 1.8s infinite alternate;
+}
+@keyframes floaty{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+@keyframes shadow{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(.85,.85);
+    }
+}
+@media screen and (max-width: 320px){
+    .home{
+        padding-top: 7rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .home__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .home__data{
+        text-align: initial;
+    }
+    .home__img img{
+        width: 400px;
+    }
+    .home__shadow{
+        width: 250px;
+        height: 40px;
+    }
+} */
